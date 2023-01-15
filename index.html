@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reseter.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <p class="logo">library_</p>
+    </header>
+    <main id="libraryGrid">
+        <div class='card'>
+            <form id="bookForm">
+                <input type="text" id="title" placeholder="Title" required>
+                <input type="text" id="author" placeholder="Author" required>
+                <input type="number" id="pages" placeholder="Pages" required>
+                <label for="read">Have you read it?</label>
+                <input type="checkbox" id="read">
+                <button type="submit" id="submitButton">+ Add New</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p class="copyright">Copyright &copy; <script>document.write(new Date().getFullYear())</script> David McDonald | <a href="https://github.com/davmmcdonald" target="_blank">View GitHub Profile <i class="lab la-github"></i></a></p>
+    </footer>
+</body>
+</html>
