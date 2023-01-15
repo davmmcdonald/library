@@ -48,6 +48,9 @@ main {
 .card p:last-of-type {
     cursor: pointer;
     margin-bottom: 32px;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
 }
 
 .card p {
